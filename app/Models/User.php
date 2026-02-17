@@ -82,6 +82,11 @@ class User extends Authenticatable
         return $this->belongsToMany(Eventos::class, 'eventos_users', 'id_user', 'id_evento');
     }
 
+    public function logrosUsers(){
+        return $this->hasMany(LogrosUsers::class);
+    }
+
+
     // MÉTODOS PROPIOS
     //-------------------------------------------------------
 
