@@ -66,7 +66,7 @@ Su objetivo es recoger la información almacenada en varias bases de datos para 
 **Endpoints:**
 #### Autentificación de usuarios
 - [**POST** | Registrar usuario](#registrarse)
-- [**POST** | Registrar usuario](#login)
+- [**POST** | Logear usuario](#login)
 ---
 #### Generales
 - [**GET** | Todos los users](#get--todos-los-users)
@@ -2224,8 +2224,9 @@ Respuesta (**200 OK**):
 Todavía no está desarrollado.
 
 ## ❗ Tecnologías usadas (versiones)
-- PHP: 8.2
+- PHP: 8.2.12
 - Laravel: 12.0
 - MySQL
 - Laravel Sanctum: 4.2
 - Laravel Breeze: 2.3
+- Composer: 2.9.2
